@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="methods" thread-count="1">
+
+    <!-- Run All Tests -->
+    <test name="All Tests">
+        <classes>
+            <class name="org.example.AnnotationsTest"/>
+        </classes>
+    </test>
+
+<!--    &lt;!&ndash; Run Smoke and Regression  Tests &ndash;&gt;-->
+<!--    <test name="Smoke and Regression Tests">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="smoke"/>-->
+<!--                <include name="regression"/>-->
+<!--                <exclude name="sanity"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="org.example.AnnotationsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    &lt;!&ndash; Run Only Smoke Tests &ndash;&gt;-->
+<!--    <test name="Smoke Tests">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="smoke"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="org.example.AnnotationsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    &lt;!&ndash; Run All Except Sanity Tests &ndash;&gt;-->
+<!--    <test name="All Except Sanity">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="sanity"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="org.example.AnnotationsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
