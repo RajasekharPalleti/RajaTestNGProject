@@ -17,10 +17,10 @@ public class FindDuplicates {
         uniques.add(num);
       }
     }
-    if(duplicates.isEmpty()){
-        System.out.println("No Duplicates Found");
-    }else{
-        System.out.println("Duplicates found: " + duplicates);
+    if (duplicates.isEmpty()) {
+      System.out.println("No Duplicates Found");
+    } else {
+      System.out.println("Duplicates found: " + duplicates);
     }
   }
 }
